@@ -84,7 +84,7 @@ header{
 }
 
 .banner button:hover{
-    opacity: 0.8;
+    color:aqua;
 }
 
 @keyframes moveBanner{
