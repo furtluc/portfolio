@@ -192,8 +192,9 @@ header{
 }
 
 .menu-item{
-    text-align: center;
-    margin-bottom: .9rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-top: 2.6rem;
 }
 
 .menu-link{
@@ -236,24 +237,64 @@ header{
 /* Área Sobre Mim */
 
 .sobre-mim{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 5rem);
-    row-gap: .5rem;
     background-color: rgb(223, 223, 223);
+    align-items: center;
 }
 
 .sobre-header{
+    display: block;
     position: relative;
-    display:flex;
-    left: 600%;
-    right: 100%;
+    object-fit: cover;
+    width: max-content;
+    left: 41rem;
+}
+
+.sobre-header h1{
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 3rem;
     color: #4b4b4b;
     border-bottom: solid 3px #f85032;
     margin-bottom: 1.5rem;
 }
+
+.sobre-text{
+    object-fit: cover;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-family: var(--font-secundary); 
+    font-size: 17px;
+}
+
+.sobre-text p{
+    display: block;
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 42rem;
+    margin-top: -20px;
+    max-width: max-content;
+}
+
+.sobre-text span{
+    text-indent: 16px; /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+}
+
+/* IMG conhecimento*/
+
+.sobre-img{
+    display: block;
+    align-items: center;
+    object-fit: cover;
+}
+
+.sobre-img img{
+    max-width: 100%;
+    width: 15%;
+    border-radius: 15%;
+    margin-top: -17rem;
+    margin-bottom: 11rem;
+    margin-left: 24rem;
+}
+
 
 /* Área Conhecimentos/Habilidades */
 
