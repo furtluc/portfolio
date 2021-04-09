@@ -204,6 +204,14 @@ header{
     transition: color 0.7s;
 }
 
+/*MENU LINK -----------------------------------------*/
+
+.menu-link#home{
+    transition: 1s;
+}
+
+/*MENU LINK -----------------------------------------*/
+
 .menu-link:hover{
     color:#f85032;
 }
@@ -247,6 +255,8 @@ header{
     object-fit: cover;
     width: max-content;
     left: 41rem;
+    padding-top: 100px;
+    padding-bottom: 45px;
 }
 
 .sobre-header h1{
@@ -262,7 +272,7 @@ header{
     margin-top: 45px;
     margin-bottom: 45px;
     font-family: var(--font-secundary); 
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .sobre-text p{
@@ -278,21 +288,26 @@ header{
     text-indent: 16px; /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 }
 
+
 /* IMG conhecimento*/
 
 .sobre-img{
     display: block;
     align-items: center;
     object-fit: cover;
+    margin-right: 35px;
 }
 
 .sobre-img img{
     max-width: 100%;
-    width: 15%;
+    height: 360px;
+    width: 21%;
     border-radius: 15%;
     margin-top: -17rem;
     margin-bottom: 11rem;
     margin-left: 24rem;
+    border: 0px solid rgb(223, 223, 223);
+    box-shadow: 1px 1px 2px 2px #e73827;
 }
 
 
@@ -373,6 +388,7 @@ header{
 .conhecimento-text{
     font-family: var(--font-secundary);
     margin-top: 1rem;
+    font-size: 12.5pt;
 }
 
 .conhecimentos-img-wrapper{
@@ -385,3 +401,39 @@ header{
     object-fit: cover;
     width: 100%;
 }
+
+/*SESSAO CONTATO ----------*/
+
+.sessao-contato{
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+    margin: auto;
+}
+
+.cont{
+    font-family: var(--font-primary);
+    text-align: center;
+    font-size: 13pt;
+    color: rgb(223, 223, 223);
+}
+
+/*SESSAO CONTATO ----------*/
+
+
+
+/*SESSAO FOOTER -----------*/
+
+.foot{
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+    margin: auto;
+    color: rgb(223, 223, 223);
+    text-decoration: overline #e73827;
+}
+
+.roda{
+    text-align: center;
+}
+
+
+/*SESSAO FOOTER -----------*/
