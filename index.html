@@ -12,6 +12,16 @@
     <title>Portfólio</title>
 </head>
 <body>
+    
+<!-- início do preloader -->
+
+    <div id="preloader">
+    <div class="inner">
+       <img src="imagens/preload.gif">
+    </div>
+    </div>
+
+<!-- fim do preloader --> 
 
     <div class="container">
 
@@ -29,8 +39,7 @@
             <div class="banner">
                 <h1>Programador Júnior</h1>
                 <p>Lucas Furtado</p>
-                <a href="#sobre-mim"><button>Saiba mais</button></a>
-                
+                <a href="#sobre-mim"><button>Saiba mais</button></a>                
              </div>
         </header>
 
@@ -51,13 +60,15 @@
 
 <!-- SESSAO: SOBRE MIM INICIO !!!!!!!!!! -->
 
-       <section class="sessao-sobre">
-            <div id="sobre-mim" class="sobre-mim">
+       <section id="sobre-mim" class="sessao-sobre">
+            <div class="sobre-mim">
+                <div class="titulo-texto">
                 <div class="sobre-header">
                     <h1>Sobre Mim</h1>
                 </div>
                 <div class="sobre-text">
-                 <p><span>Lorem ipsum</span>dolor sit amet consectetur adipisicing elit. Deserunt iste perferendis dolore nihil. Aliquam possimus et incidunt rem veniam adipisci nulla repellat laudantium deserunt deleniti, eaque quibusdam consequuntur a assumenda?</p>
+                 <p>Cursando Análise e Desenvolvimento de Sistemas, busco vagas de estágio, me desenvolvendo em programação e tecnologias afins. Tenho facilidade e entusiasmo em aprender e adquirir novas experiências.</p>
+                </div>
                 </div>
                 <div class="sobre-img">
                     <img src="imagens/linkdin.jpg" alt="foto">
@@ -69,8 +80,8 @@
 <!-- SESSAO: SOBRE MIM FIM !!!!!!!!!!  -->
 
 
-        <section class="sessao-conhecimentos">
-            <div id="hab" class="sessao-header">
+        <section id="hab"  class="sessao-conhecimentos">
+            <div class="sessao-header">
                 <h1>Principais Habilidades</h1>
             </div>
             <div class="conhecimentos">
@@ -80,7 +91,7 @@
                         <h3>HTML</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, et saepe quod dolorum quas odio nemo, ad dolorem tenetur excepturi, provident dolor. Vel facere eveniet nisi. Voluptas nulla hic explicabo.</p>
+                        <p>Conhecimento básico com boas práticas em <em>HTML5</em>, cerca de 1 ano de experiência com projetos em desenvolvimento. Conhecimento básico em abreviação Emmet.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -89,7 +100,7 @@
                         <h3>CSS</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus atque tempora reprehenderit odio, quod deleniti necessitatibus porro ipsum, vitae saepe, deserunt molestiae? Sequi illum quo quasi, omnis nesciunt ea?</p>
+                        <p>Aproximadamente 1 ano de experiência, boas práticas em <em>CSS3</em> com projetos em desenvolvimento.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -98,7 +109,7 @@
                         <h3>Javascript</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum iure tempora itaque perferendis commodi debitis eos ex, magnam rem sapiente quisquam. Dolorum autem tenetur enim culpa vel itaque pariatur sint.</p>
+                        <p>Conhecimento básico em <em>JS</em>, contato com <em>jquery</em> e outras bibliotecas.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -107,7 +118,7 @@
                         <h3>Python</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est asperiores, odio nostrum, esse ea, deserunt natus eos beatae laboriosam mollitia! Minus aliquam voluptas ipsum fugiat accusamus quo officia facere!</p>
+                        <p>Mais de 1 ano com experiência em <em>Python</em>, conhecimento em diversas bibliotecas, contato com flask e alguns outros frameworks.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -116,7 +127,7 @@
                         <h3>PHP</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laudantium repellat vel fugit. Sint, possimus ipsa. Reiciendis harum iure laborum numquam voluptas? Harum fugiat iste quam. Mollitia commodi suscipit unde?</p>
+                        <p>Pouco conhecimento na sintaxe de <em>PHP</em>, contato com plataforma EasyPHP e XAMP.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -125,7 +136,7 @@
                         <h3>GitHub</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quae sint dolorum eligendi quas. Atque mollitia quaerat reiciendis voluptas architecto eum, quasi ut cum! Natus facere iste tempora fuga minima.</p>
+                        <p>Versionamteno simples de código (add, commit, push, branchs) com conhecimento em algumas ferramentas</p>
                     </div>
                 </div>
                 <div class="conhecimentos-img-wrapper">
@@ -135,8 +146,8 @@
         </section>  
 
 
-        <section class="sessao-contato">
-            <div id="contato" class="cont">
+        <section id="contato" class="sessao-contato">
+            <div class="cont">
                 <div>
                 <p><i class="fab fa-whatsapp"></i> WhatsApp - (11)97042-5090 </p>
                 <p><i class="far fa-envelope"></i> Email - furtluc_mi@hotmail.com</p>
@@ -156,6 +167,7 @@
     
 </body>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
 
 </html>
