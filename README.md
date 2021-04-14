@@ -13,6 +13,6 @@ O Controle das tarefas desse projeto será realizado no GitHub
 - :bug: correção de bug
 - :checkered_flag: release
 
-## Images
+## Imagens
 
 Photo by https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText%22%3EIlya
